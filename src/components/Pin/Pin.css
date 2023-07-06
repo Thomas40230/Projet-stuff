@@ -1,0 +1,53 @@
+.pin {
+    position: absolute;
+    background-color: transparent;
+    height: 45px;
+}
+
+.pin > svg, .pin > svg > rect, .pin > svg > path {
+    background-color: transparent;
+}
+
+.pin .flash svg {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    background: none;
+    margin: auto;
+    display: flex;
+    margin-left: 2px;
+    margin-top: -46px;
+    stroke: #F4B860;
+}
+
+.pin .molotov svg {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    background: none;
+    margin: auto;
+    display: flex;
+    margin-left: 2px;
+    margin-top: -46px;
+    stroke: #F4B860;
+}
+
+.pin .smoke svg {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    background: none;
+    margin: auto;
+    display: flex;
+    margin-left: 2px;
+    margin-top: -46px;
+    stroke: #F4B860;
+}
+
+.Pin_button {
+    visibility: hidden;
+}
+
+.Pin_button .pin {
+    visibility: visible;
+}

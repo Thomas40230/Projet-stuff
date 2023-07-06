@@ -1,0 +1,162 @@
+.card_figure {
+    width: 187px;
+    height: 250px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: #282831;
+}
+
+.card_figure:hover {
+    transition: 0.5s;
+    background-color: #111117;
+}
+
+.card_img {
+    height: 70%;
+    object-fit: cover;
+    border-radius: 10px 10px 10px 10px;
+    margin: 6px 6px 6px 6px;
+}
+
+.card_title {
+    width: 60px;
+    padding-left: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.6px;
+    color: #ffffff;
+    background-color: transparent;
+    margin-top: -10px;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    margin-left: -50px;
+    margin-right: 25px;
+    /*scrollbar-width: none;*/
+}
+
+.card_link {
+    text-decoration: none;
+    margin-left: 32px;
+}
+
+.container_icon {
+    border-radius: 5px 5px 5px 5px;
+    height: 24px;
+    width: 24px;
+    display: flex;
+    position: relative;
+    bottom: 178px;
+    left: 153px;
+    background-color: #282831;
+}
+
+.icon_map {
+    height: 12px;
+    width: 12px;
+    display: flex;
+    margin: auto;
+    background-color: transparent;
+}
+
+body {
+    position: relative;
+    height: 100%;
+    background: #eee;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+  
+.swiper {
+    width: 1396px;
+    height: 300px;
+    margin-left: 0 !important;
+    padding-left: 50px !important;
+    padding-right: 20px !important;
+}
+  
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    max-width: 236px !important;
+    min-width: 210px;
+}
+
+.swiper-slide-active {
+    max-width: 236px !important;
+    min-width: 210px;
+}
+
+.swiper-slide-next{
+    max-width: 236px !important;
+    min-width: 210px;
+}
+  
+.swiper-slide img {
+    display: block;
+}
+
+.card_container {
+    width: 187px;
+}
+
+@media screen and (max-width: 1690px) {
+
+    .swiper {
+        width: 1160px;
+    }
+    
+  }
+
+@media screen and (max-width: 1455px) {
+
+    .swiper {
+        width: 924px;
+    }
+    
+}
+
+@media screen and (max-width: 1219px) {
+
+    .swiper {
+        width: 688px;
+    }
+    
+} 
+
+@media screen and (max-width: 893px) {
+
+    .swiper {
+        width: 452px;
+    }
+    
+} 
+
+@media screen and (max-width: 768px) {
+
+    .gallery {
+        margin-left: -20px;
+    }
+    
+}
+
+@media screen and (max-width: 567px) {
+
+    .swiper {
+        width: 212px;
+    }
+
+} 
+

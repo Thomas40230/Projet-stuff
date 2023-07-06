@@ -1,0 +1,206 @@
+.sidebar {
+    width: 600px;
+}
+
+.sl_container {
+    margin-left: 60px;
+    margin-top: -78px;
+    width: 100%;
+}
+
+
+.list_title {
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.list_container {
+    height: 650px;
+    overflow-y: scroll;
+    width: 100%;
+}
+
+.list_item {
+    display: flex;
+    width: 100%;
+}
+
+.icon_container {
+    width: 56px;
+    height: 56px;
+    background-color: #21222D;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    margin-right: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon_container .molotov svg {
+    width: 28px;
+    height: 28px;
+    background: none;
+    margin: auto;
+    display: flex;
+    margin-left: -2px;
+    margin-top: -2px;
+    stroke: #F4B860;
+}
+
+.icon_container .smoke svg {
+    width: 28px;
+    height: 28px;
+    background: none;
+    margin: auto;
+    display: flex;
+    margin-left: -2px;
+    margin-top: -2px;
+    stroke: #F4B860;
+}
+
+.icon_container .flash svg {
+    width: 28px;
+    height: 28px;
+    background: none;
+    margin: auto;
+    display: flex;
+    margin-left: -2px;
+    margin-top: -2px;
+    stroke: #F4B860;
+}
+
+.container_pos {
+    display: flex;
+    flex-direction: column;
+}
+
+.position_name {
+    margin-top: 5px;
+    color: #FBFCFB;
+}
+
+.tick_container_list {
+    background-color: #92CE97;
+    width: 37px;
+    height: 18px;
+    border-radius: 19px;
+    color: black;
+    font-size: 12px;
+    margin-top: 8px;
+    display: flex; 
+    overflow: hidden; 
+}
+
+.stuff_tick {
+    display: flex;
+    background-color: #92CE97;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 2px;
+}
+
+.view_container {
+    display: flex;
+    margin: auto;
+    margin-right: 30px;
+}
+
+.view_button {
+    display: flex;
+    height: 32px;
+    width: 109px;
+    background-color: #F4B860;
+    border-radius: 48px;
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.view_icon {
+    background-color: #F4B860;
+    width: 12px;
+    height: 12px;
+    margin: auto;
+}
+
+.view_title {
+    background-color: #F4B860;
+    font-size: 12px;
+    color: #171821;
+    text-align: center;
+    margin: auto;
+    margin-top: 7px;
+}
+
+.sl_container_mini {
+    margin-top: -78px;
+}
+
+.icon_container_mini {
+    width: 56px;
+    height: 56px;
+    background-color: #171821;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    margin-right: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list_item_mini {
+    display: flex;
+    width: 100%;
+    background-color: #21222D;
+}
+
+.container_pos_mini {
+    display: flex;
+    flex-direction: column;
+    background-color: #21222D;
+}
+
+.view_container_mini {
+    display: flex;
+    margin: auto;
+    margin-right: 30px;
+    background-color: #21222D;
+}
+
+.position_name_mini {
+    margin-top: 5px;
+    color: #FBFCFB;
+    background-color: #21222D;
+}
+
+
+@media screen and (max-width: 1590px) {
+
+    .list_item {
+        display: flex;
+        width: 82%;
+    }
+
+} 
+
+@media screen and (max-width: 768px) {
+
+    .sl_container {
+        margin-left: -56px;
+    }
+
+    .list_item {
+        width: 55%;
+    }
+
+}   
+
+@media screen and (max-width: 500px) {
+
+    .sl_container {
+        margin-left: -96px;
+    }
+
+} 

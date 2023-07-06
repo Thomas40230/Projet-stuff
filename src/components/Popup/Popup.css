@@ -1,0 +1,157 @@
+.popup-box {
+    position: fixed;
+    width: 50%;
+    height: 100vh;
+    top: 0;
+    left: 50%;
+    background-color: #21222D;
+    border-radius: 16px 0 0 16px;
+  }
+   
+.box {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #21222D;
+}
+   
+.close-icon {
+    cursor: pointer;
+    position: fixed;
+    right: 10%;
+    bottom: 60px;
+    width: 26px;
+    height: 26px;
+    background: none;
+}
+
+.close-arrow {
+    background: none;
+}
+
+.title-box {
+    background-color: #21222D;
+    margin-top: 88px;
+    display: flex;
+}
+
+.icon-stuff {
+    background-color: #171821;
+    border-radius: 8px;
+    margin-left: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 36px;
+    width: 36px;
+}
+
+.icon-stuff .flash svg {
+    width: 22px;
+    height: 24px;
+    background: none;
+    margin: auto;
+    display: flex;
+    stroke: #F4B860;
+}
+
+.icon-stuff .smoke svg {
+    width: 22px;
+    height: 24px;
+    background: none;
+    margin: auto;
+    display: flex;
+    stroke: #F4B860;
+}
+
+.icon-stuff .molotov svg {
+    width: 22px;
+    height: 24px;
+    background: none;
+    margin: auto;
+    display: flex;
+    stroke: #F4B860;
+}
+
+.other-list-box {
+    background-color: #21222D;
+    margin-left: 42px;
+    max-width: 630px;
+}
+
+.other-list-title {
+    background-color: #21222D;
+    font-size: 18px;
+    font-weight: 600;
+    color: #B8B9BB;
+}
+
+.black-box {
+    background-color: #0C0C11;
+    opacity: 0.2;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 50%;
+}
+
+.title-location {
+    font-size: 32px;
+    color: #FBFCFB;
+    line-height: 38.4px;
+    margin-left: 16px;
+    background-color: #21222D;
+}
+
+.video-box {
+    background-color: #21222D;
+    margin: 42px;
+    height: 350px;
+}
+
+.filtered-box {
+    background-color: #21222D;
+}
+
+.box-list {
+    background-color: #21222D;
+    margin-top: 100px;
+}
+
+.popup-box .sl_container {
+    background-color: #21222D;
+}
+
+.popup-box .list_title {
+    background-color: #21222D;
+}
+
+.popup-box .list_container {
+    background-color: #21222D;
+    max-height: 300px;
+}
+
+
+@media screen and (max-width: 1350px) {
+
+    .video-responsive {
+        width: 100%;
+    }
+
+} 
+
+@media screen and (max-width: 768px) {
+
+    .popup-box {
+        left: 0%;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .black-box {
+        background-color: #21222D;
+    }
+
+} 
+

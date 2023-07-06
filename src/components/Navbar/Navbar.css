@@ -1,0 +1,50 @@
+.nav_list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin-top: 80px;
+}
+
+.logo_icon {
+    margin-left: 42px;
+    margin-bottom: 48px;
+}
+
+.home_icon {
+    margin-left: 55px;
+    margin-bottom: 62px;
+}
+
+.contact_icon {
+    margin-left: 54px;
+}
+
+@media screen and (max-width: 975px) {
+
+    .nav_list {
+        display: flex;
+        margin-left: -20px;
+        margin-top: 44px;
+    }
+
+}  
+
+@media screen and (max-width: 768px) {
+    .nav_list {
+        display: flex;
+        flex-direction: row;
+        margin-left: -4px;
+        margin-top: 44px;
+    }
+
+    .home_icon {
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+
+    .contact_icon {
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+
+}

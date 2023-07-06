@@ -1,0 +1,101 @@
+[
+        {
+            "id": "4442752b-eab5-4bc0-90be-e504194bda10",
+            "name": "Inferno",
+            "Pool": "Active",
+            "picture": "/assets/Map/inferno-picture.jpg",
+            "logo": "/assets/Map/inferno-icon.png",
+            "radar":"/assets/Map/inferno-radar.jpg"
+        },
+
+        {
+            "id": "d71bdac0-0a2e-43d2-99ee-bbeb78e2f8ae",
+            "name": "Mirage",
+            "Pool": "Active",
+            "picture":"/assets/Map/mirage-picture.jpg",
+            "logo":"/assets/Map/mirage-icon.png",
+            "radar":"/assets/Map/mirage-radar.jpg"
+        },
+
+        {
+            "id": "b22aae05-0a58-49f2-8432-edfeb8e58a5d",
+            "name": "Nuke",
+            "Pool": "Active",
+            "picture":"/assets/Map/nuke-picture.jpg",
+            "logo":"/assets/Map/nuke-icon.png",
+            "radar":"/assets/Map/nuke-radar-upper.jpg",
+            "radar2":"/assets/Map/nuke-radar-lower.jpg"
+        },
+
+        {
+            "id": "b3aa8f3c-90bb-4290-82f0-c1777a26f391",
+            "name": "Overpass",
+            "Pool": "Active",
+            "picture":"/assets/Map/overpass-picture.jpg",
+            "logo":"/assets/Map/overpass-icon.png",
+            "radar":"/assets/Map/overpass-radar.jpg"
+        },
+
+        {
+            "id": "be3b43eb-25b8-4b2f-a89c-46334167fbf9",
+            "name": "Vertigo",
+            "Pool": "Active",
+            "picture":"/assets/Map/vertigo-picture.jpg",
+            "logo":"/assets/Map/vertigo-icon.png",
+            "radar":"/assets/Map/vertigo-radar.jpg"
+        },
+
+        {
+            "id": "2b4ac60f-52d2-4cc1-b54c-587f18470e48",
+            "name": "Ancient",
+            "Pool": "Active",
+            "picture":"/assets/Map/ancient-picture.jpeg",
+            "logo":"/assets/Map/ancient-icon.png",
+            "radar":"/assets/Map/ancient-radar.jpg"
+        },
+
+        {
+            "id": "e7ec8d0b-588e-4b6d-a8a7-0562cc4c7383",
+            "name": "Anubis",
+            "Pool": "Active",
+            "picture":"/assets/Map/anubis-picture.jpg",
+            "logo":"/assets/Map/anubis-icon.png",
+            "radar":"/assets/Map/anubis-radar.jpg"
+        },
+
+        {
+            "id": "2f9e9b50-9195-4720-aff8-50fd75202b22",
+            "name": "Dust 2",
+            "Pool": "Reserve",
+            "picture":"/assets/Map/dust2-picture.jpg",
+            "logo":"/assets/Map/dust2-icon.png",
+            "radar":"/assets/Map/dust2-radar.jpg"
+        },
+
+        {
+            "id": "23542c9d-9795-44a5-a759-a3b8418be3cd",
+            "name": "Train",
+            "Pool": "Reserve",
+            "picture":"/assets/Map/train-picture.jpg",
+            "logo":"/assets/Map/train-icon.png",
+            "radar":"/assets/Map/train-radar.jpg"
+        },
+
+        {
+            "id": "8252f4ea-7956-4973-a29c-07be4c7e95c1",
+            "name": "Cache",
+            "Pool": "Reserve",
+            "picture":"/assets/Map/cache-picture.jpg",
+            "logo":"/assets/Map/cache-icon.png",
+            "radar":"/assets/Map/cache-radar.jpg"
+        },
+
+        {
+            "id": "72b4a3d4-1152-4b43-a618-b1e7f0c8a12f",
+            "name": "Tuscan",
+            "Pool": "Reserve",
+            "picture":"/assets/Map/tuscan-picture.jpg",
+            "logo":"/assets/Map/tuscan-icon.png",
+            "radar":"/assets/Map/tuscan-radar.jpg"
+        }
+]

@@ -1,0 +1,165 @@
+.radar {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px; 
+    margin-top: -234px;
+}
+
+.title_container {
+    display: flex;
+    flex-direction: row;
+    margin-left: -8px;
+    margin-bottom: 20px;
+}
+
+.logo_container {
+    height: 40px;
+    width: 52px;
+    margin-top: 20px;
+    margin-right: 8px;
+}
+
+.logo_map {
+    width: auto;
+    height: 40px;
+    margin: auto;
+    display: flex;
+}
+
+.radar_name {
+    font-size: 32px;
+    color: white;
+    font-weight: 600;
+}
+
+.filter_title {
+    font-size: 18px;
+    color: #B8B9BB;
+    font-weight: 600;
+}
+
+.radar_map {
+    height: 678px;
+    width: 678px;
+    display: flex;
+    margin: auto;
+    margin-top: 8px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.radar_container {
+    margin-top: 35px;
+    border: 8px;
+    border-radius: 16px;
+    background: #21222D;
+    width: 694px;
+    height: 694px;
+    position: relative;
+}
+
+.filter {
+    display: flex;
+    margin-bottom: -12px;
+    margin-left: 8px;
+}
+
+.filter_container {
+    margin-top: 12px;
+}
+
+.filter_button {
+    margin-right: 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+.tick_container {
+    margin-top: 12px;
+    margin-left: 254px;
+    color: #B8B9BB;
+
+}
+
+.fieldset_filtre {
+    display: flex;
+    border: none;
+}
+
+.molotov {
+    height: 24px;
+    width: 24px;
+    background:none;
+}
+
+.smoke {
+    height: 24px;
+    width: 24px;
+    background:none;
+}
+
+.flash {
+    height: 24px;
+    width: 24px;
+    background:none;
+}
+
+input[type="radio"]:checked + label .flash svg {
+	color: #F4B860;
+    stroke: #F4B860;
+}
+
+input[type="radio"]:checked + label .smoke svg {
+	color: #F4B860;
+    stroke: #F4B860;
+}
+
+input[type="radio"]:checked + label .molotov svg {
+	color: #F4B860;
+    stroke: #F4B860;
+}
+
+input[type="radio"]:checked + label span {
+	color: #F4B860;
+    stroke: #F4B860;
+}
+
+input {
+    visibility: hidden;
+}
+
+
+@media screen and (max-width: 978px) {
+
+    .radar_map {
+        height: 504px;
+        width: 504px;
+        margin-top: 6px;
+    }
+
+    .radar_container {
+        width: 516px;
+        height: 516px;
+    }
+
+    .tick_container {
+        margin-top: 56px;
+        margin-left: -200px;
+    }
+    
+  }
+
+
+@media screen and (max-width: 768px) {
+
+    .radar {
+    margin-left: 81px;
+    margin-top: -25px;    
+    }
+    
+    .radar_container {
+        display: none;
+    }
+}
